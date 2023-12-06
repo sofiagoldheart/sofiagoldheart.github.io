@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hey Emma</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="splay.css">
+    </head>
+    <body>
+        <div class="js-message message"></div>
+        <div class="recorder">
+          <div class="waveform">
+            <canvas class="js-canvas waveform__canvas"></canvas>
+          </div>
+          <div class="toolbar">
+            <button class="js-record button button--record"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+            <button class="js-play button button--play button--disabled"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <audio class="js-audio audio audio--hidden" controls/>
+          </div>
+        </div>
+        <script src="design.js"></script>
+
+    </body>
+</html>
